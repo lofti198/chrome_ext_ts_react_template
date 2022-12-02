@@ -1,0 +1,31 @@
+{
+  "mobile.de": [
+    { "id": "header", "name": "header", "xpath": "//h1" },
+    { "id": "price", "name": "price", "xpath": "//h1" },
+    { "id": "phone", "name": "phone", "xpath": "//span[@id='seller-phone']" }
+  ],
+  "willhaben.at": [
+    { "id": "titel", "name": "titel", "xpath": "//h1" },
+    {
+      "id": "preis",
+      "name": "preis",
+      "xpath": "//div[@data-testid=\"contact-box-price-box\"]/div/span"
+    },
+    {
+      "id": "kaution",
+      "name": "kaution",
+      "xpath": "//li[contains(text(), 'Kaution:')]"
+    },
+    {
+      "id": "provision",
+      "name": "provision",
+      "xpath": "//span[contains(text(), 'Maklerprovision')]/following-sibling::*"
+    },
+    {
+      "id": "phone",
+      "name": "phone",
+      "xpath": "//*[contains(text(), 'Telefon')]/following-sibling::*"
+    }
+  ],
+  "synoparser.ru": [{ "id": "header", "name": "header2", "xpath": "//h1" }]
+}

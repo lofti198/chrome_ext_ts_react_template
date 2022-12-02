@@ -1,0 +1,102 @@
+<DataField>
+        <fieldDynamicPluginEngineSetting>
+          <processDataFieldSetting>
+            <active>false</active>
+            <name>data field process plugin</name>
+            <dllList>
+              <string>System.dll</string>
+            </dllList>
+            <sourceCode>
+                            using System;
+                            using System.Collections.Generic;
+                            using System.Text;
+                            using DynamicPluginData;
+
+                            namespace DatacolDynamicPluginNS
+                            {                
+                                public class DynamicPluginClass
+                                {     
+                                    public static string processDataFieldValue(string s, ItemInfo itemInfo, GlobalInfo globalInfo)
+                                    {
+                                       return s;
+                                    }
+                                }
+                            }
+                    </sourceCode>
+            <loadDllFromPluginSubfolder>false</loadDllFromPluginSubfolder>
+            <dllListToIgnoreLoad />
+            <dynamicGUID />
+            <methodName>processDataFieldValue</methodName>
+          </processDataFieldSetting>
+        </fieldDynamicPluginEngineSetting>
+        <FieldType>spec</FieldType>
+        <DataFieldName>URL</DataFieldName>
+        <CutStringsRegexGroup>0</CutStringsRegexGroup>
+        <CutStrings />
+        <Xpathes />
+        <AllowedTags>&lt;br&gt;,&lt;p&gt;,&lt;ul&gt;,&lt;li&gt;</AllowedTags>
+        <TagsProcessingMode>REMOVE</TagsProcessingMode>
+        <LookInRefererCode>false</LookInRefererCode>
+        <Comments />
+        <SearchRegexInXpathResults>false</SearchRegexInXpathResults>
+        <ValueMatchRules>
+          <ExistStrings />
+          <ExistStringsAllMustBe>false</ExistStringsAllMustBe>
+          <NotExistStrings />
+          <NotExistStringsAllMust>true</NotExistStringsAllMust>
+          <isRegex>false</isRegex>
+        </ValueMatchRules>
+        <MatchRuleFormula>
+          <FormulasToMatch />
+        </MatchRuleFormula>
+        <MatchNumberEntitiesBy>NOT</MatchNumberEntitiesBy>
+        <RuleEntitiesRange>
+          <Min>1</Min>
+          <Max>100</Max>
+        </RuleEntitiesRange>
+        <MatchRuleSeparatedStringToSplit />
+        <ValueNotEmpty>false</ValueNotEmpty>
+        <TestAfterProcess>false</TestAfterProcess>
+        <FieldReplaces />
+        <StaticFieldValueSelectMode>
+          <SelectModeType>ALL</SelectModeType>
+          <Range />
+        </StaticFieldValueSelectMode>
+        <StaticFieldValuesUniteString>,</StaticFieldValuesUniteString>
+        <FieldNecessary>false</FieldNecessary>
+        <DefaultValue />
+        <CutEntitiesNumber>1</CutEntitiesNumber>
+        <CutBy>NOT_TRIM</CutBy>
+        <StringToSplitValueForCutting />
+        <SpecValueType>URL</SpecValueType>
+        <DownloadFiles>false</DownloadFiles>
+        <DownloadableExtensions>
+          <string>.jpg</string>
+          <string>.jpeg</string>
+          <string>.png</string>
+          <string>.gif</string>
+        </DownloadableExtensions>
+        <DownloadFolder />
+        <DownloadVirtualPath />
+        <DownloadLinkIdentificationRule />
+        <DownloadFilenameGenerationMode>NOT</DownloadFilenameGenerationMode>
+        <DownloadExistingFilesHandlingMode>OVERWRITE_EXISTING</DownloadExistingFilesHandlingMode>
+        <DownloadGenerationFilenameFormula />
+        <DownloadFileFinalExtension />
+        <DownloadFileFolderGenerationMode>NOT</DownloadFileFolderGenerationMode>
+        <DownloadGenerationFileFolderFormula />
+        <LoadMaxAttLoad>1</LoadMaxAttLoad>
+        <ReturnValue>FULL_VALUE</ReturnValue>
+        <LoadFilePlugin />
+        <DownloadFileFileFtpUpload>false</DownloadFileFileFtpUpload>
+        <DownloadFileFileRemoveFromComputerAfterFtpLoad>false</DownloadFileFileRemoveFromComputerAfterFtpLoad>
+        <FtpGenerateSubfolderServer>false</FtpGenerateSubfolderServer>
+        <DownloadFileFileMaximumFtpLoadAttempts>1</DownloadFileFileMaximumFtpLoadAttempts>
+        <FtpServer />
+        <FtpPort>0</FtpPort>
+        <FtpLogin />
+        <FtpPassword />
+        <FtpDirectory />
+        <DataGatherPlugin />
+        <DataGatherPluginConfig />
+      </DataField>

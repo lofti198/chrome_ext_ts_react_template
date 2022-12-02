@@ -1,0 +1,7 @@
+<BrowserActionSettingBase xsi:type="ClickBrowserActionSetting">
+            <Name>%name%</Name>
+            <browserActionType>CLICK</browserActionType>
+            <Iterative>false</Iterative>
+            <Xpath>%xpath%</Xpath>
+            <RealEvent>false</RealEvent>
+          </BrowserActionSettingBase>

@@ -1,0 +1,16 @@
+{
+  "mobile.de": [
+    {
+      "id": "click_phone",
+      "name": "click_phone",
+      "xpath": "//a[@id='sellerPhoneRevealButton']"
+    }
+  ],
+  "willhaben.at": [
+    {
+      "id": "click_phone",
+      "name": "click_phone",
+      "xpath": "//*[@aria-label='Telefonnummern anzeigen']"
+    }
+  ]
+}

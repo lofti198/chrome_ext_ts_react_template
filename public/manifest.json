@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "EXT_NAME",
+  "version": "1.2.1",
+  "description": "Mine structured data while surfing web",
+  "author": "Alex Prismotrov",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "js": [],
+      "css": [],
+      "media": []
+    }
+  ],
+  "action": {
+    "default_icon": "logo192.png"
+  },
+  "icons": {
+    "16": "logo-on-16.png",
+    "32": "logo-on-32.png",
+    "48": "logo-on-48.png",
+    "128": "logo-on-128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "injectionScript.js",
+        "datafield.xml",
+        "datafield_url.xml",
+        "dc-campaign-template.par",
+        "action_click.xml"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "permissions": ["activeTab", "storage", "downloads", "contextMenus"],
+  "host_permissions": ["https://websiteextractor.net/*"]
+}

@@ -1,0 +1,191 @@
+/* reset style */
+.chrome_picker-container *,
+.chrome_picker-container *::before,
+.chrome_picker-container *::after {
+  box-sizing: border-box;
+}
+
+.chrome_picker-container ul[class],
+.chrome_picker-container ol[class] {
+  padding: 0;
+}
+
+.chrome_picker-container body,
+.chrome_picker-container h1,
+.chrome_picker-container h2,
+.chrome_picker-container h3,
+.chrome_picker-container h4,
+.chrome_picker-container p,
+.chrome_picker-container ul[class],
+.chrome_picker-container ol[class],
+.chrome_picker-container li,
+.chrome_picker-container figure,
+.chrome_picker-container figcaption,
+.chrome_picker-container blockquote,
+.chrome_picker-container dl,
+.chrome_picker-container dd {
+  margin: 0;
+}
+
+.chrome_picker-container body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+.chrome_picker-container ul[class],
+.chrome_picker-container ol[class] {
+  list-style: none;
+}
+
+.chrome_picker-container a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+.chrome_picker-container img {
+  max-width: 100%;
+  display: block;
+}
+
+.chrome_picker-container article > * + * {
+  margin-top: 1em;
+}
+
+.chrome_picker-container input,
+.chrome_picker-container button,
+.chrome_picker-container textarea,
+.chrome_picker-container select {
+  font: inherit;
+}
+
+.chrome_picker-container .App * {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.chrome_picker-container {
+  all: initial;
+}
+
+.chrome_picker-container .App {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  width: 500px;
+  height: fit-content;
+  z-index: 21483640;
+  background: #fcfcfc;
+  color: black;
+  background-color: bisque;
+}
+
+.chrome_picker-container .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .chrome_picker-container .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.chrome_picker-container .App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.chrome_picker-container .top-bar {
+  display: flex;
+
+  background-color: #b7b1b1;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chrome_picker-container .top-bar-first-part {
+  width: 20%;
+  padding: 10px;
+}
+.chrome_picker-container .top-bar-second-part {
+  width: 65%;
+  padding: 10px;
+}
+.chrome_picker-container .top-bar-third-part {
+  width: 15%;
+  padding: 10px;
+}
+
+.chrome_picker-container .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chrome_picker-container .container-horizontal-layout {
+  display: flex;
+}
+.chrome_picker-container .picky-result-table-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chrome_picker-container table,
+.chrome_picker-container th,
+.chrome_picker-container td {
+  border: 1px solid black;
+}
+
+.chrome_picker-container .container-absolute-position {
+  width: 100%;
+  /* margin: 0;
+  padding: 0; */
+  position: fixed;
+  z-index: 999999912312399;
+  bottom: 0;
+  width: 100%;
+}
+
+.chrome_picker-container .picky-result-table {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2147483640;
+}
+
+.chrome_picker-container .disclaimer {
+  text-align: center;
+
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #790707;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 5px;
+  background-color: rgb(224, 223, 127);
+}
+
+.chrome_picker-container .MuiModal-root {
+  z-index: 99997483640;
+}
